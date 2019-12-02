@@ -4,22 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>One Page</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+
+
 
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-                <h1 class="display-4">Merhaba, Dünya!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <nav>
+        <a href="#welcome">HOME</a>
+        <a href="#services">SERVİCES</a>
+        <a href="#portfolio">PORTFOLİO</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div id="welcome" class="gorsel">
+        <div class="home hometext">
+            <h1>WELCOME TO MY PAGE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem commodi voluptates! Quas explicabo, earum consequatur, sed ad laborum deserunt aspernatur libero necessitatibus consectetur fugiat! Aliquid cupiditate at voluptas assumenda.</p>
+            <a href="#">GET MORE İNFO</a>
+        </div>
+        <div class="home homefilter"></div>
+    </div>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Crafted For</h4>
+                    <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                </div>
             </div>
-    
-    
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="row">
+                        
+                        <div class="mb-5 rounded col-md-6 ">
+                            <div class="services-content mt-20 d-sm-flex">
+                                <div class="col-sm-4">
+                                    <div class="services-icon">
+                                        <img src="image/icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Startup</h5>
+                                    <p>Short description for the ones who look for something new.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5 rounded col-md-6">
+                                <div class="services-content mt-40 d-sm-flex">
+                                    <div class="col-sm-4">
+                                        <div class="services-icon">
+                                            <img src="image/icon.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h5>Startup</h5>
+                                        <p>Short description for the ones who look for something new.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 rounded col-md-6">
+                                    <div class="services-content mt-40 d-sm-flex">
+                                        <div class="col-sm-4">
+                                            <div class="services-icon">
+                                                <img src="image/icon.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h5>Startup</h5>
+                                            <p>Short description for the ones who look for something new.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5 rounded col-md-6">
+                                        <div class="services-content mt-40 d-sm-flex">
+                                            <div class="col-sm-4">
+                                                <div class="services-icon">
+                                                    <img src="image/icon.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <h5>Startup</h5>
+                                                <p>Short description for the ones who look for something new.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                <div class="services-image col-md-4">
+                        <div class="image">
+                            <img class="aw-zoom" src="image/web.jpg" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+       <div class="container mt-50">
+           <div class="row">
+               <div class="aw-zoom shadow p-3 mb-5 rounded col-md-4 port">
+                   <img src="image/1.png" alt="">
+               </div>
+               <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/2.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/3.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/4.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/5.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/6.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/7.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/8.jpg" alt="">
+                </div>
+                <div class="aw-zoom shadow p-3 mb-5 col-md-4 port">
+                    <img src="image/9.jpg" alt="">
+                </div>
+           </div>
+       </div>
+       
+    </section>
+
+
+
+    <section id="contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="marg col-md-4">
+                        <h5>About Leno</h5>
+                        <p>We're passionate about creating the best mobile apps for personal development</p>
+                    </div>
+                    <div class="marg col-md-4">
+                        <h5>Important Links</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, repellendus.</p>
+                    </div>
+                    <div class="marg col-md-4">
+                        <h5>SOCİAL MEDİA</h5>
+                        <div>
+                            <img src="image/instagram.png" alt="">
+                        </div>
+                        <div>
+                            <img src="image/facebook.png" alt="">
+                        </div>
+                        <div>
+                            <img src="image/twitter.png" alt="">
+                        </div>
+                    </div>
+                    <p>ALL RİGHT RESERVED © 2019 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
